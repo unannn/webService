@@ -1,5 +1,6 @@
-package com.unannn.study.config.auth;
+package com.unannn.study.config;
 
+import com.unannn.study.config.auth.CustomOAuth2UserService;
 import com.unannn.study.domain.user.Role;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
